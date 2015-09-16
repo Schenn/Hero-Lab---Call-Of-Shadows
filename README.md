@@ -19,10 +19,15 @@ This mod includes the following:
 Installation Instructions:
 
 1a: On windows, go to c:/ProgramData/Hero Lab/data/Shadowrun5
+
 1b: On mac, go to /Users/username/Dropbox/Hero Lab Resources/Shadowrun5
+
 2: Drop the user file into this current folder.
 
 To Use:
+
 1: Open Hero Lab
+
 2: Load Shadowrun 5E
+
 3: In the Hero Settings list, select "Call of Shadows - All"
