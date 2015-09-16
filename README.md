@@ -5,10 +5,16 @@ Feel free to use it in your shadowrun 5e / call of cthulhu (7E) crossover games.
 This mod includes the following:
 
 	- Skills 
-		- I've added the skill list from Call Of Cthulhu 7E where there is no matching skill in SR5. You will not be a shadowrunner in the 1930's. As such, some of the general weapon skills from SR shouldn't be used. 
+		- I've added the skill list from Call Of Cthulhu 7E where there is no matching skill in SR5. 
+
+		You will not be a shadowrunner in the 1930's. As such, some of the general combat skills from SR shouldn't be used, the individual weapon skills and dodge from the 1930's are provided for that reason. 
 
 	- Gear 
-		- I've added the gear, including weapons and armor, from Call of Cthulhu 7E as well. I used their prices to establish the costs and ammunition counts for the various pieces of equipment. For some of the weapon descriptions, I used wikipedia. To find 1930's specific gear, enter 1930's into the search bar
+		- I've added the gear, including weapons and armor, from Call of Cthulhu 7E as well. 
+
+		I used their prices to establish the costs and ammunition counts for the various pieces of equipment. For some of the weapon descriptions, I used wikipedia. 
+
+		To find 1930's specific gear, enter 1930's into the search bar
 
 	- Attribute Tests 
 		- I've added two attribute tests. Sanity and Idea. 
