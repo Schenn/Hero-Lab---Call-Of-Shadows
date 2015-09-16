@@ -1,0 +1,2049 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document signature="Hero Lab Data">
+  <thing id="wpFenceFoi" name="Fencing Foil" description="A sport weapon, with the guard removed.\n\n1930s" compset="Melee" summary="A sharpened Fencing Foil">
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpDamage" value="1"/>
+    <fieldval field="wpAP" value="-1"/>
+    <fieldval field="wpReach" value="1"/>
+    <fieldval field="grCost" value="6"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="WpCategory" tag="Sword"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="Armory" tag="Melee"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpSwordCan" name="Sword Cane" description="A sword hidden inside the shaft of a cane.\n\n(Concealability Modifier -2)\n\n1930s" compset="Melee" summary="A sword in a cane.">
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpReach" value="1"/>
+    <fieldval field="grCost" value="25"/>
+    <fieldval field="wpDamage" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="Armory" tag="Melee"/>
+    <tag group="WpCategory" tag="Sword"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpOldRapie" name="Rapier" description="A slender, sharply pointed sword, best suited for thrusting attacks, used mainly in Early Modern Europe during the 16th and 17th centuries.\n\n1930s" compset="Melee" summary="A Rapier or Heavy Epee">
+    <fieldval field="dpLimit" value="6"/>
+    <fieldval field="wpReach" value="1"/>
+    <fieldval field="grCost" value="20"/>
+    <fieldval field="wpDamage" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="Armory" tag="Melee"/>
+    <tag group="WpCategory" tag="Sword"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpCavSabre" name="Cavalier Sabre" description="A sword that usually has a curved, single-edged blade and a rather large hand guard, covering the knuckles of the hand as well as the thumb and forefinger. Although sabres are typically thought of as curved-bladed slashing weapons, those used by the world&apos;s heavy cavalry often had straight and even double-edged blades more suitable for thrusting.\n\n1930s" compset="Melee" summary="A Cavalier Sabre">
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpReach" value="1"/>
+    <fieldval field="grCost" value="30"/>
+    <fieldval field="wpDamage" value="3"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="Armory" tag="Melee"/>
+    <tag group="WpCategory" tag="Sword"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpCalvLanc" name="Cavalry Lance" description="Gains an additional -1 AP when charging\n\n1930s" compset="Melee" summary="A Cavalry Lance">
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpReach" value="2"/>
+    <fieldval field="grCost" value="25"/>
+    <fieldval field="wpDamage" value="2"/>
+    <fieldval field="wpAP" value="-1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="ExCountAs" tag="tgPike" name="Pike"/>
+    <tag group="WpCategory" tag="Exotic"/>
+    <tag group="Armory" tag="Melee"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpWdAxe" name="Wooden Axe" description="An old school wooden axe\n\n1930s" compset="Melee" summary="A wooden axe">
+    <fieldval field="grCost" value="5"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpDamage" value="2"/>
+    <fieldval field="wpAP" value="-4"/>
+    <fieldval field="wpReach" value="1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="TwoHand" name="Requires two hands" abbrev="Requires two hands"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageStr" name="Add STR to Damage" abbrev="Add STR to Damage"/>
+    <tag group="WpCategory" tag="Axe" name="Blades (Axes)" abbrev="Blade"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpHatchSic" name="Hatchet / Sickle" description="A hatchet or sickle type of tool\n\n1930s" compset="Melee" summary="A Hatchet or Sickle">
+    <fieldval field="grCost" value="3"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpDamage" value="1"/>
+    <fieldval field="wpAP" value="-3"/>
+    <fieldval field="wpReach" value="1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="TwoHand" name="Requires two hands" abbrev="Requires two hands"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageStr" name="Add STR to Damage" abbrev="Add STR to Damage"/>
+    <tag group="WpCategory" tag="Axe" name="Blades (Axes)" abbrev="Blade"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpFightKni" name="Fighting Knife" description="A long, fighting knife useful for skinning game or fighting gangers.\n\n1930s" compset="Melee" summary="A Fighting Knife (Dirk...)">
+    <fieldval field="grCost" value="2"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="6"/>
+    <fieldval field="wpDamage" value="2"/>
+    <fieldval field="wpAP" value="-1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Weapon" tag="DamageStr" name="Add STR to Damage" abbrev="Add STR to Damage"/>
+    <tag group="Weapon" tag="NoTwoBonus" name="Doesn&apos;t Increase DV when wielded two-handed" abbrev="Doesn&apos;t Increase DV when wielded two-handed"/>
+    <tag group="WpCategory" tag="Knife" name="Blades (Knives)" abbrev="Blade"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpButchKni" name="Butcher Knife" description="A large knife used for carving beasts.\n\n1930s" compset="Melee" summary="A Butchers Knife">
+    <fieldval field="grCost" value="2"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="6"/>
+    <fieldval field="wpDamage" value="3"/>
+    <fieldval field="wpAP" value="-1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Weapon" tag="DamageStr" name="Add STR to Damage" abbrev="Add STR to Damage"/>
+    <tag group="Weapon" tag="NoTwoBonus" name="Doesn&apos;t Increase DV when wielded two-handed" abbrev="Doesn&apos;t Increase DV when wielded two-handed"/>
+    <tag group="WpCategory" tag="Knife" name="Blades (Knives)" abbrev="Blade"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpSmallKni" name="Small Knife" description="Size isn&apos;t everything. It&apos;s how you use it that matters.\n\n(Concealability Modifier - 2)\n\n1930s" compset="Melee" summary="A small Fighting Knife (switchblade...)">
+    <fieldval field="grCost" value="2"/>
+    <fieldval field="dpLimit" value="7"/>
+    <fieldval field="wpDamage" value="1"/>
+    <fieldval field="wpAP" value="-1"/>
+    <fieldval field="grAvail" value="4"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Weapon" tag="DamageStr" name="Add STR to Damage" abbrev="Add STR to Damage"/>
+    <tag group="Weapon" tag="NoTwoBonus" name="Doesn&apos;t Increase DV when wielded two-handed" abbrev="Doesn&apos;t Increase DV when wielded two-handed"/>
+    <tag group="WpCategory" tag="Knife" name="Blades (Knives)" abbrev="Blade"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpBlackjac" name="Blackjack" description="Also called a blackjack, this is a small, springy club, or a flat piece of iron in a flexible leather covering. It&apos;s specially designed for concealment (Concealability Modifier -2).\n\n1930s" compset="Melee" summary="A BlackJack">
+    <fieldval field="grCost" value="2"/>
+    <fieldval field="grAvail" value="2"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpDamage" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Weapon" tag="DamageStr" name="Add STR to Damage" abbrev="Add STR to Damage"/>
+    <tag group="Weapon" tag="NoTwoBonus" name="Doesn&apos;t Increase DV when wielded two-handed" abbrev="Doesn&apos;t Increase DV when wielded two-handed"/>
+    <tag group="WpCategory" tag="Sap" name="Clubs (Saps)" abbrev="Club"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpLargClub" name="Large Club" description="The weapon they named the skill after. These stats represent a range of objects, including an axe handle, baseball bat, and a two-by-four with a rusty nail in it. There is a price listed, but it&apos;s not overly difficult to find one for free if you know where to look.\n\n1930s" compset="Melee" summary="A Large Club">
+    <fieldval field="grCost" value="3"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpDamage" value="3"/>
+    <fieldval field="wpReach" value="1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Weapon" tag="DamageStr" name="Add STR to Damage" abbrev="Add STR to Damage"/>
+    <tag group="WpCategory" tag="Baton" name="Clubs (Batons)" abbrev="Club"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpSmaClub" name="Small Club" description="The weapon they named the skill after. These stats represent a range of objects, including a Fire Poker, Crowbar or Nightstick. There is a price listed, but it&apos;s not overly difficult to find one for free if you know where to look.\n\n1930s" compset="Melee" summary="A Large Club">
+    <fieldval field="grCost" value="3"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpDamage" value="3"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Weapon" tag="DamageStr" name="Add STR to Damage" abbrev="Add STR to Damage"/>
+    <tag group="WpCategory" tag="Baton" name="Clubs (Batons)" abbrev="Club"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpOldGarro" name="Garrote" description="A thin, useful segment of wire good for strangling the life out of a target.\n\nUses 2074 Garrote rules.\n\n1930s" compset="Melee" summary="A Garotte made from piano wire.">
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpDamage" value="4"/>
+    <fieldval field="wpAP" value="-6"/>
+    <fieldval field="grCost" value=".50"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="WpCategory" tag="Exotic"/>
+    <tag group="Armory" tag="Melee"/>
+    <tag group="WpDamType" tag="Stun"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpBullwhip" name="Bullwhip" description="A whip can be used to snare handheld objects, including weapons, or to trip an opponent using the Called Shot rules (p. 195, {i}SR5{/i}). Disarming or grabbing a held object requires a Blast Out of Hands called shot with an additional Opposed Strength Test to yank the item free and toward, instead of away from, the attacker. The attacker must be within 2 meters of the opponent and gains a +2 dice pool bonus to their Strength Test. Tripping an opponent uses the Knockdown called shot. Again, the attacker must be within 2 meters of the target.\n\n1930s" compset="Melee" summary="Idaho Smith has one at his hip.">
+    <fieldval field="wpDamage" value="1"/>
+    <fieldval field="wpAP" value="3"/>
+    <fieldval field="wpReach" value="2"/>
+    <fieldval field="grCost" value="5"/>
+    <fieldval field="grAvail" value="6"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="WpCategory" tag="Exotic"/>
+    <tag group="Armory" tag="Melee"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpWarBoom" name="War Boomerang" description="1930s" compset="Ranged" summary="A boomerang for throwing">
+    <fieldval field="dpLimit" value="-1"/>
+    <fieldval field="wpDamage" value="2"/>
+    <fieldval field="grCost" value="2"/>
+    <fieldval field="grAvail" value="4"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="RangeCat" tag="rcAeroGren"/>
+    <tag group="Weapon" tag="RangeStr"/>
+    <tag group="Armory" tag="Thrown"/>
+    <tag group="UsesLimit" tag="ilPhysical"/>
+    <tag group="WpDamType" tag="Physical"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpMace" name="Mace" description="A mace is a blunt weapon, a type of club or virge that uses a heavy head on the end of a handle to deliver powerful blows. A mace typically consists of a strong, heavy, wooden or metal shaft, often reinforced with metal, featuring a head made of stone, copper, bronze, iron, or steel.\n\n1930s\n1930s" compset="Melee" summary="A Mace">
+    <fieldval field="grCost" value="10"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpDamage" value="4"/>
+    <fieldval field="wpReach" value="1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Weapon" tag="DamageStr" name="Add STR to Damage" abbrev="Add STR to Damage"/>
+    <tag group="WpCategory" tag="Baton" name="Clubs (Batons)" abbrev="Club"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Melee" name="Melee" abbrev="Melee"/>
+    <child entity="grCustWeap"></child>
+    </thing>
+  <thing id="wpFlintPis" name="Flintlock Pistol" description="Flintlock pistols were used as self-defense weapons and as a military arm. Their effective range was short, and they were frequently used as an adjunct to a sword or cutlass. Pistols were usually smoothbore although some rifled pistols were produced.\n\n1930s" compset="Ranged" summary="Flintlock Pistol">
+    <fieldval field="grCost" value="30"/>
+    <fieldval field="grAvail" value="12"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="1"/>
+    <fieldval field="wpDamage" value="6"/>
+    <fieldval field="wpAP" value="-1"/>
+    <fieldval field="wpShort" value="0 - 5"/>
+    <fieldval field="wpMedium" value="6 - 10"/>
+    <fieldval field="wpLong" value="11 - 15"/>
+    <fieldval field="wpExtreme" value="15 - 20"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Mode" tag="Single"/>
+    <tag group="AmmoType" tag="Bullet"/>
+    <tag group="ForceCased" tag="Caseless"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ares" name="Ares" abbrev="Ares"/>
+    <tag group="ReloadType" tag="MuzzLoad"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="LightRev"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp22Semi" name=".22 Semi-Auto" description="The Ares Light Fire 70 is one of the most common pistols on the market. A special barrel-mounted silencer developed exclusively for the Light Fire 70 is available that gives you an additional -1 dice pool modifier to the usual -4 (for a total of -5); this silencer costs 750¥.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="25"/>
+    <fieldval field="grAvail" value="3"/>
+    <fieldval field="dpLimit" value="7"/>
+    <fieldval field="wpAmmoCap" value="6"/>
+    <fieldval field="wpDamage" value="6"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ares" name="Ares" abbrev="Ares"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="LightPst" name="Pistols (Semi-Automatics (Light))" abbrev="Light Pistol"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpDerringr" name="Derringer" description="A derringer is generally the smallest usable handgun of a given caliber. \n\n(Concealability Modifier - 4)\n\n1930s" compset="Ranged" summary="A Classic Deringer">
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpDamage" value="6"/>
+    <fieldval field="wpAmmoCap" value="1"/>
+    <fieldval field="grCost" value="12"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="BreakAct" name="Break Action" abbrev="(b)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="HoldOutPst" name="Pistols (Hold-Out Pistols)" abbrev="Hold-out"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp32Revolv" name=".32 Revolver" description="The Webley Revolver (also known as the Webley Top-Break Revolver or Webley Self-Extracting Revolver) was, in various marks, the standard issue service pistol for the armed forces of the United Kingdom, the British Empire, and the Commonwealth from 1887 until 1963.\n\n1930s" compset="Ranged" summary="A .32 Revolver">
+    <fieldval field="grCost" value="15"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="6"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ruger" name="Ruger" abbrev="Ruger"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="Cylinder" name="Cylinder" abbrev="(cy)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="HeavyRev"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp32Auto" name=".32 Automatic" description="The Colt Model 1903 Pocket Hammerless (not to be confused with the Colt Model 1903 Pocket Hammer) is a .32 ACP caliber, self-loading, semi-automatic pistol designed by John Browning and built by Colt Patent Firearms Manufacturing Company of Hartford, Connecticut. The Colt Model 1908 Pocket Hammerless is a variant introduced five years later in .380 ACP caliber. Despite the title &apos;Hammerless&apos;, the Model 1903 does have a hammer. It is covered and hidden from view under the rear of the slide. This allowed the pistol to be carried in and withdrawn from a pocket quickly and smoothly without snagging.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="20"/>
+    <fieldval field="grAvail" value="5"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="8"/>
+    <fieldval field="wpDamage" value="7"/>
+    <fieldval field="wpAP" value="-1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ares" name="Ares" abbrev="Ares"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="HeavyPst" name="Pistols (Semi-Automatics (Heavy))" abbrev="Heavy Pistol"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp38Auto" name=".38 Automatic" description="The Colt Model 1900 was a self-loading semi-automatic .38 caliber handgun introduced by Colt at the turn of the 20th century. It also marked the introduction of .38 ACP, the round for which it is chambered (not to be confused with the smaller .380 ACP).[2]\n\nIt was developed from John M. Browning&apos;s earlier prototypes in the late 1890s. The United States military tested the design against other semiautomatic pistols by European makers, and adopted some versions for trial use. The M1900 and variants were also offered commercially. Variations included the Model 1902 Sporting, Model 1902 Military, Model 1903 Pocket (in .38 ACP; the .32 ACP model was a different design), and the Model 1905, which introduced the .45 ACP cartridge. The designs of 1909 and later did away with the front bushing, and would become the M1911 pistol.[3]\n\n1930s" compset="Ranged" summary="A .38 automatic">
+    <fieldval field="grCost" value="25"/>
+    <fieldval field="grAvail" value="5"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="6"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ares" name="Ares" abbrev="Ares"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="HeavyPst" name="Pistols (Semi-Automatics (Heavy))" abbrev="Heavy Pistol"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp38Revolv" name=".38 Revolver" description="Introduced to the firearms market in 1927, the Colt Official Police is a medium frame, six-shot, double-action revolver with a six-round cylinder, primarily chambered for the .38 Special cartridge, and manufactured by the Colt&apos;s Manufacturing Company. The intended specific target market for the Official Police was mainly law enforcement agencies and it became one of the best selling police firearms of all time, eventually in the 1950s coming to exemplify typical peace officer weaponry. The Official Police was also used by various U.S. and allied military forces during World War II.\n\n1930s" compset="Ranged" summary="A .32 Revolver">
+    <fieldval field="grCost" value="25"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="6"/>
+    <fieldval field="wpDamage" value="9"/>
+    <fieldval field="wpAP" value="-2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ruger" name="Ruger" abbrev="Ruger"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="Cylinder" name="Cylinder" abbrev="(cy)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="HeavyRev"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpLuger" name="Model P08 Luger" description="The Pistole Parabellum 1908—or Parabellum-Pistole (Pistol Parabellum)[1]—is a toggle-locked recoil-operated semi-automatic pistol. The design was patented by Georg J. Luger in 1898 and produced by German arms manufacturer Deutsche Waffen- und Munitionsfabriken (DWM) starting in 1900 with other manufacturers such as W+F Bern, Krieghoff, Simson, Mauser and Vickers;[2] it was an evolution of the 1893 Hugo Borchardt–designed C-93. The first Parabellum pistol was adopted by the Swiss army in May 1900. In German Army service, it was succeeded and partly replaced by the Walther P38 in caliber 9mm Parabellum.\n\nThe Luger is well known from its use by Germans during World War I and World War II, along with the interwar Weimar Republic and the postwar East German Volkspolizei. Although the P.08 was introduced in 7.65mm Parabellum, it is notable for being the pistol for which the 9×19mm Parabellum (also known as the 9 mm Luger) cartridge was developed. Because of its association with Nazi Germany, the pistol has been used in fictional works by many villainous characters over the past several decades.\n\n1930s" compset="Ranged" summary="The classic German Luger">
+    <fieldval field="grCost" value="25"/>
+    <fieldval field="grAvail" value="5"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="8"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ares" name="Ares" abbrev="Ares"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="HeavyPst" name="Pistols (Semi-Automatics (Heavy))" abbrev="Heavy Pistol"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp45Revolv" name=".45 Revolver" description="The M1917 Revolver (formally United States Revolver, Caliber .45, M1917) was a U.S. six-shot revolver of .45 ACP caliber. It was adopted by the U.S. Army in 1917 to supplement the standard M1911 .45 ACP semi-automatic pistol during World War I. Afterwards, it was primarily used by secondary and non-deployed troops. There were two variations of the M1917, one made by Colt and the other made by Smith &amp; Wesson.\n\n1930s" compset="Ranged" summary="A .32 Revolver">
+    <fieldval field="grCost" value="40"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpAmmoCap" value="6"/>
+    <fieldval field="wpDamage" value="10"/>
+    <fieldval field="wpAP" value="-3"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ruger" name="Ruger" abbrev="Ruger"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="Cylinder" name="Cylinder" abbrev="(cy)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="HeavyRev"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp45Auto" name=".45 Automatic" description="The M1911 is a single-action, semi-automatic, magazine-fed, recoil-operated pistol chambered for the .45 ACP cartridge.[1] It served as the standard-issue sidearm for the United States Armed Forces from 1911 to 1986. It was first used in later stages of the Philippine-American War, and was widely used in World War I, World War II, the Korean War, and the Vietnam War. The pistol&apos;s formal designation as of 1940 was Automatic Pistol, Caliber .45, M1911 for the original model of 1911 or Automatic Pistol, Caliber .45, M1911A1 for the M1911A1, adopted in 1924. The designation changed to Pistol, Caliber .45, Automatic, M1911A1 in the Vietnam era\n\n1930s" compset="Ranged" summary="A .45 automatic">
+    <fieldval field="grCost" value="25"/>
+    <fieldval field="grAvail" value="5"/>
+    <fieldval field="dpLimit" value="6"/>
+    <fieldval field="wpAmmoCap" value="7"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ares" name="Ares" abbrev="Ares"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="HeavyPst" name="Pistols (Semi-Automatics (Heavy))" abbrev="Heavy Pistol"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp22Bolt" name=".22 Bolt Action Rifle" description="The M1903 Springfield, formally the United States Rifle, Caliber .30-06, Model 1903, is an American clip-loaded, 5-round magazine fed, bolt-action service rifle used primarily during the first half of the 20th century.\n\nIt was officially adopted as a United States military bolt-action rifle on June 19, 1903, and saw service in World War I. It was officially replaced as the standard infantry rifle by the faster-firing semi-automatic 8-round M1 Garand starting in 1937. However, the M1903 Springfield remained in service as a standard issue infantry rifle during World War II, since the U.S. entered the war without sufficient M1 rifles to arm all troops.\n\n1930s" compset="Ranged" summary="Springfield Model 1903">
+    <fieldval field="grCost" value="13"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="6"/>
+    <fieldval field="wpAmmoCap" value="5"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-3"/>
+    <fieldval field="wpShort" value="0-30"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ruger" name="Ruger" abbrev="Ruger"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Magazine" name="Internal Magazine" abbrev="(m)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="SniperRif" name="Longarms (Sniper Rifles)" abbrev="Sniper Rifle"/>
+    <tag group="Weapon" tag="RangeStr"/>
+    <tag group="Mode" tag="Burst3Comp"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang">
+      <bootstrap thing="acImaScope"></bootstrap>
+      <bootstrap thing="acShockPad"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wp30Lever" name=".30 Lever-Action Rifle" description="The M1903 Springfield, formally the United States Rifle, Caliber .30-06, Model 1903, is an American clip-loaded, 5-round magazine fed, bolt-action service rifle used primarily during the first half of the 20th century.\n\nIt was officially adopted as a United States military bolt-action rifle on June 19, 1903, and saw service in World War I. It was officially replaced as the standard infantry rifle by the faster-firing semi-automatic 8-round M1 Garand starting in 1937. However, the M1903 Springfield remained in service as a standard issue infantry rifle during World War II, since the U.S. entered the war without sufficient M1 rifles to arm all troops. It also remained in service as a sniper rifle during World War II, the Korean War, and even in the early stages of the Vietnam War. It remains popular as a civilian firearm, historical collector&apos;s piece, and as a military drill rifle.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="19"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="7"/>
+    <fieldval field="wpAmmoCap" value="5"/>
+    <fieldval field="wpDamage" value="9"/>
+    <fieldval field="wpAP" value="-4"/>
+    <fieldval field="wpShort" value="0-50"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Remington" name="Remington" abbrev="Remington"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="MountNo" tag="Under" name="Underbarrel" abbrev="Under"/>
+    <tag group="ReloadType" tag="Magazine" name="Internal Magazine" abbrev="(m)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="SniperRif" name="Longarms (Sniper Rifles)" abbrev="Sniper Rifle"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang">
+      <bootstrap thing="acImaScope"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wp303LeeEn" name="303 Lee-Enfield" description=" In the 1920s a series of experiments resulting in design changes were carried out to help with these problems, reducing the number of complex parts and refining manufacturing processes. The SMLE Mk V (later Rifle No. 1 Mk V), adopted a new receiver-mounted aperture sighting system, which moved the rear sight from its former position on the barrel.[29] The increased gap resulted in an improved sighting radius, improving sighting accuracy and the aperture improved speed of sighting over various distances.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="50"/>
+    <fieldval field="grAvail" value="16"/>
+    <fieldval field="dpLimit" value="8"/>
+    <fieldval field="wpAmmoCap" value="15"/>
+    <fieldval field="wpDamage" value="10"/>
+    <fieldval field="wpAP" value="-5"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ranger" name="Ranger Arms" abbrev="Ranger Arms"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="WpCategory" tag="SniperRif" name="Longarms (Sniper Rifles)" abbrev="Sniper Rifle"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang">
+      <bootstrap thing="mdSilencer"></bootstrap>
+      <bootstrap thing="acImaScope"></bootstrap>
+      <bootstrap thing="acShockPad"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wp3006Bolt" name=".30-06 Bolt Action Rifle" description="The .30-06 Springfield cartridge (pronounced &quot;thirty-aught-six&quot; or &quot;thirty-oh-six&quot;), 7.62×63mm in metric notation and called &quot;.30 Gov&apos;t &apos;06&quot; by Winchester,[3] was introduced to the United States Army in 1906 and later standardized; it remained in use until the early 1980s. The &quot;.30&quot; refers to the caliber of the bullet, and the &quot;06&quot; refers to the year the cartridge was adopted—1906. It replaced the .30-03, 6mm Lee Navy, and .30-40 Krag cartridges. (The .30-40 Krag is also called the .30 U.S., .30 Army, or .30 Government.) The .30-06 remained the U.S. Army&apos;s primary rifle and machine gun cartridge for nearly 50 years before being replaced.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="75"/>
+    <fieldval field="grAvail" value="10"/>
+    <fieldval field="dpLimit" value="7"/>
+    <fieldval field="wpDamage" value="13"/>
+    <fieldval field="wpAP" value="-4"/>
+    <fieldval field="wpAmmoCap" value="5"/>
+    <fieldval field="wpShort" value="0-110"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Ares" name="Ares" abbrev="Ares"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="WpCategory" tag="SniperRif" name="Longarms (Sniper Rifles)" abbrev="Sniper Rifle"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang">
+      <bootstrap thing="acShockPad"></bootstrap>
+      <bootstrap thing="acImaScope"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wpElephant" name="Elephant Gun" description="An elephant gun is a large caliber gun, rifled or otherwise, so named because they were originally developed for use by big-game hunters for elephants and other big game. They used black powder cartridges at first but later used smokeless powder.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="400"/>
+    <fieldval field="grAvail" value="9"/>
+    <fieldval field="dpLimit" value="6"/>
+    <fieldval field="wpAmmoCap" value="2"/>
+    <fieldval field="wpSpecial" value="Can fire both barrels at once with +1DV and -1 Recoil"/>
+    <fieldval field="wpDamage" value="11"/>
+    <fieldval field="wpAP" value="-1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="PJSS" name="PJSS" abbrev="PJSS"/>
+    <tag group="Mode" tag="Burst2" name="2-round Burst Fire (Double-Barrel)" abbrev="BF-2"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="BreakAct" name="Break Action" abbrev="(b)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="Shotgun" name="Longarms (Shotguns)" abbrev="Shotgun"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang">
+      <bootstrap thing="acShockPad"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wp20Shotgn" name="20 Gauge Shotgun" description="The 20-gauge shotgun is a type of smoothbore shotgun shell that is smaller in caliber (.615) than a 12 gauge (.729). It is often used as a beginning shooter&apos;s practice round and is noted by its yellow hull.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="35"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpAmmoCap" value="5"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-1"/>
+    <fieldval field="wpShort" value="0-20"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Defiance" name="Defiance" abbrev="Defiance"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="BreakAct"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Mode" tag="Burst2"/>
+    <tag group="AmmoType" tag="Flechette"/>
+    <tag group="WpCategory" tag="Shotgun" name="Longarms (Shotguns)" abbrev="Shotgun"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp16Shotgn" name="16 Gauge Shotgun" description="1930s" compset="Ranged">
+    <fieldval field="grCost" value="40"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpAmmoCap" value="2"/>
+    <fieldval field="wpDamage" value="9"/>
+    <fieldval field="wpAP" value="-1"/>
+    <fieldval field="wpShort" value="0-20"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Defiance" name="Defiance" abbrev="Defiance"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="BreakAct"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Mode" tag="Burst2"/>
+    <tag group="AmmoType" tag="Flechette"/>
+    <tag group="WpCategory" tag="Shotgun" name="Longarms (Shotguns)" abbrev="Shotgun"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp12Shotgn" name="12 Gauge Shotgun" description="1930s" compset="Ranged">
+    <fieldval field="grCost" value="20"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpAmmoCap" value="2"/>
+    <fieldval field="wpDamage" value="10"/>
+    <fieldval field="wpAP" value="-2"/>
+    <fieldval field="wpShort" value="0-20"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Defiance" name="Defiance" abbrev="Defiance"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="BreakAct"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Mode" tag="Burst2"/>
+    <tag group="AmmoType" tag="Flechette"/>
+    <tag group="WpCategory" tag="Shotgun" name="Longarms (Shotguns)" abbrev="Shotgun"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp12Pump" name="12 Gauge Pump Shotgun" description="Uses slugs instead of shot\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="20"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpAmmoCap" value="5"/>
+    <fieldval field="wpDamage" value="10"/>
+    <fieldval field="wpAP" value="-2"/>
+    <fieldval field="wpShort" value="0-20"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Defiance" name="Defiance" abbrev="Defiance"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="BreakAct"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Mode" tag="Burst2"/>
+    <tag group="WpCategory" tag="Shotgun" name="Longarms (Shotguns)" abbrev="Shotgun"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp12SawSho" name="12 Gauge Sawed-Off Shotgun" description="Bigger bang, shorter range\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="20"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="dpLimit" value="3"/>
+    <fieldval field="wpAmmoCap" value="5"/>
+    <fieldval field="wpDamage" value="14"/>
+    <fieldval field="wpAP" value="-6"/>
+    <fieldval field="wpShort" value="0-20"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Defiance" name="Defiance" abbrev="Defiance"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="BreakAct"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Mode" tag="Burst2"/>
+    <tag group="WpCategory" tag="Shotgun" name="Longarms (Shotguns)" abbrev="Shotgun"/>
+    <tag group="AmmoType" tag="Flechette"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wpThompson" name="Thompson" description="The Thompson submachine gun (nicknamed the Thompson) is an American submachine gun, invented by John T. Thompson in 1918, that became infamous during the Prohibition era. It was a common sight in the media of the time, being used by both law enforcement officers and criminals.[7] The Thompson was also known informally as: the &quot;Tommy Gun&quot;, &quot;Trench Broom&quot;, &quot;Trench Sweeper&quot;, &quot;Chicago Typewriter&quot;, &quot;Chicago Piano&quot;, &quot;Chicago Style&quot;, &quot;Chicago Organ Grinder&quot;, and &quot;The Chopper&quot;\n\n1930s" compset="Ranged">
+    <fieldval field="grAvail" value="16F"/>
+    <fieldval field="dpLimit" value="4"/>
+    <fieldval field="wpAmmoCap" value="30"/>
+    <fieldval field="wpDamage" value="8"/>
+    <fieldval field="wpAP" value="-1"/>
+    <fieldval field="wpVehAP" value="-2"/>
+    <fieldval field="wpShort" value="0-20"/>
+    <fieldval field="grCost" value="100"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Colt" name="Colt" abbrev="Colt"/>
+    <tag group="Mode" tag="Burst3" name="Burst Fire" abbrev="BF"/>
+    <tag group="Weapon" tag="DamageStr"/>
+    <tag group="Mode" tag="FullAuto10" name="Full-Auto" abbrev="FA"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="WpCategory" tag="SMG" name="Automatics (Submachine Guns)" abbrev="SMG"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang">
+      <bootstrap thing="mdFoldStoc"></bootstrap>
+      <bootstrap thing="mdGasVent">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="2"/>
+        </bootstrap>
+      <bootstrap thing="mdLaser"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wp1918Brwn" name="Browning M1918" description="The Browning Automatic Rifle (BAR) is a family of United States automatic rifles (or machine rifles) and light machine guns used by the United States and numerous other countries during the 20th century. The primary variant of the BAR series was the M1918, chambered for the .30-06 Springfield rifle cartridge and designed by John Browning in 1917 for the U.S. Expeditionary Corps in Europe as a replacement for the French-made Chauchat and M1909 Benet-Mercie machine guns.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="800"/>
+    <fieldval field="grAvail" value="12"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="20"/>
+    <fieldval field="wpDamage" value="9"/>
+    <fieldval field="wpAP" value="-2"/>
+    <fieldval field="wpShort" value="0-90"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Browning"/>
+    <tag group="Mode" tag="Burst3" name="Burst Fire" abbrev="BF"/>
+    <tag group="Mode" tag="FullAuto10" name="Full-Auto" abbrev="FA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="WpCategory" tag="LMG" name="Heavy Weapons (Light Machineguns)" abbrev="LMG"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <child entity="grCustRang">
+      <bootstrap thing="mdBelt100"></bootstrap>
+      <bootstrap thing="mdGasVent">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="2"/>
+        </bootstrap>
+      <bootstrap thing="mdLaser"></bootstrap>
+      <bootstrap thing="acShockPad"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wpM1917A1" name=".30 Browning M1917A1" description="The M1917 Browning machine gun is a heavy machine gun used by the United States armed forces in World War I, World War II, Korea, and to a limited extent in Vietnam; it has also been used by other nations. It was a crew served, belt-fed, water-cooled machine gun that served alongside the much lighter air-cooled Browning M1919. It was used at the battalion level, and often mounted on vehicles (such as a jeep). There were two main iterations of it: the M1917, which was used in World War I; and the M1917A1; which was used thereafter. The M1917, which was used on some aircraft as well as in a ground role, had a firing rate of 450 rounds per minute; the M1917A1 had a firing rate of 450 to 600 rounds per minute.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="3000"/>
+    <fieldval field="grAvail" value="16"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="250"/>
+    <fieldval field="wpDamage" value="12"/>
+    <fieldval field="wpAP" value="-4"/>
+    <fieldval field="wpShort" value="0-150"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="RPK" name="RPK" abbrev="RPK"/>
+    <tag group="Mode" tag="FullAuto10" name="Full-Auto" abbrev="FA"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="WpCategory" tag="HMG" name="Heavy Weapons (Heavy Machineguns)" abbrev="HMG"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang">
+      <bootstrap thing="acTripod"></bootstrap>
+      <bootstrap thing="mdBelt100"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wpFlareGun" name="Flare Gun" description="Can set things on fire\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="15"/>
+    <fieldval field="dvWireDesc" value="A successful hit informs you of the status of the target&apos;s basic health (and Condition Monitors)."/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="4"/>
+    <fieldval field="wpDamage" value="7"/>
+    <fieldval field="wpAP" value="-5"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Manufac" tag="Yamaha" name="Yamaha" abbrev="Yamaha"/>
+    <tag group="Mode" tag="SemiAuto" name="Semi-Automatic" abbrev="SA"/>
+    <tag group="ReloadType" tag="Magazine" name="Internal Magazine" abbrev="(m)"/>
+    <tag group="WpCategory" tag="Taser" name="Pistols (Tasers)" abbrev="Taser"/>
+    <tag group="WpCategory" tag="ExWpnFlare" name="Flare Gun"/>
+    <tag group="WpDamSpec" tag="Fire"/>
+    <tag group="WpDamType" tag="Stun" name="Stun" abbrev="S"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="wp75FieldG" name="75MM Field Gun" description="The Type 90 75 mm Field Gun (九〇式野砲 Kyūmaru-shiki yahō?) was a field gun used by the Imperial Japanese Army during the Second Sino-Japanese War, Soviet-Japanese Border Wars and World War II. The Type 90 designation was given to this gun as it was accepted in the year 2590 of the Japanese calendar (1930).[1] It was intended to replace the Type 38 75 mm Field Gun in front line combat units, but due to operational and budgetary constraints, the Type 38 continued to be used.\n\n1930s" compset="Ranged">
+    <fieldval field="grCost" value="1500"/>
+    <fieldval field="grAvail" value="20"/>
+    <fieldval field="dpLimit" value="5"/>
+    <fieldval field="wpAmmoCap" value="1"/>
+    <fieldval field="wpDamage" value="17"/>
+    <fieldval field="wpAP" value="-6"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Mode" tag="Single" name="Single Shot" abbrev="SS"/>
+    <tag group="ReloadType" tag="Clip" name="Clip" abbrev="(c)"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="WpCategory" tag="AssaultCan" name="Heavy Weapons (Assault Cannons)" abbrev="Assault Cannon"/>
+    <tag group="WpDamType" tag="Physical" name="Physical" abbrev="P"/>
+    <tag group="Armory" tag="Firearm" name="Firearm" abbrev="Firearm"/>
+    <child entity="grCustRang">
+      <bootstrap thing="mdSmartgun"></bootstrap>
+      </child>
+    </thing>
+  <thing id="wpFlame" name="Flamethrower" description="1930s" compset="Ranged">
+    <fieldval field="dpLimit" value="6"/>
+    <fieldval field="wpDamage" value="10"/>
+    <fieldval field="wpAP" value="-6"/>
+    <fieldval field="wpAmmoCap" value="4"/>
+    <fieldval field="wpSpecial" value="Replacing the fuel tank requires a full Combat Turn."/>
+    <fieldval field="grCost" value="5000"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Armory" tag="Firearm"/>
+    <tag group="Mode" tag="SemiAuto"/>
+    <tag group="RangeCat" tag="rcTaser"/>
+    <tag group="Mode" tag="Burst3"/>
+    <tag group="Mode" tag="FullAuto10"/>
+    <tag group="WpCategory" tag="Flamethrow"/>
+    <tag group="WpDamSpec" tag="Fire"/>
+    <child entity="grCustRang"></child>
+    </thing>
+  <thing id="skaClimb" name="Climbing" description="Climbing. Rock faces, ropes, tenticles.\n\n1930s" compset="SkillAct">
+    <usesource source="cosSkills"/>
+    <usesource source="cosAll"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="TestModNot" tag="tmSprint" name="Sprinting" abbrev="Sprinting"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="UsesLimit" tag="ilPhysical" name="Physical Limit" abbrev="Physical Limit"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrStr" name="Strength" abbrev="Strength"/>
+    <tag group="SkillCat" tag="Physical" name="Physical" abbrev="Physical"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaCraft" name="Craft" description="You can craft something. You need to pick what it is you are skilled at crafting.\n\n1930s" compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillCat" tag="Technical" name="Technical" abbrev="Technical"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrInt" name="Intuition" abbrev="Intuition"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaDodge" name="Dodge" description="Your ability to roll out of the way. Replaces Gymnastics in the 1930s for relevant defense rolls.\n\n1930s" compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="UsesLimit" tag="ilPhysical" name="Physical Limit" abbrev="Physical Limit"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="SkillCat" tag="Physical" name="Physical" abbrev="Physical"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaElecRep" name="Electrical Repair" description="The ability to repair electrical systems such as auto ignitions, fuse boxes, etc." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillCat" tag="Technical" name="Technical" abbrev="Technical"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="MatrixAttr" name="By Matrix Attribute" abbrev="M"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaJump" name="Jump" description="How good you are at jumping" compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="UsesLimit" tag="ilPhysical" name="Physical Limit" abbrev="Physical Limit"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrStr" name="Strength" abbrev="Strength"/>
+    <tag group="SkillCat" tag="Physical" name="Physical" abbrev="Physical"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaHide" name="Hide" description="How good you are at hiding motionless and finding hiding spots." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="SkillHelp" tag="UsesPilot" name="On a vehicle, this skill uses the pilot attribute for its dicepool" abbrev="On a vehicle, this skill uses the pilot attribute for its dicepool"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="UsesLimit" tag="ilPhysical" name="Physical Limit" abbrev="Physical Limit"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrInt"/>
+    <tag group="SkillCat" tag="Physical" name="Physical" abbrev="Physical"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaListen" name="Listen" description="Your ability to interpret and understand sound." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="UsesLimit" tag="ilMental" name="Mental Limit" abbrev="Mental Limit"/>
+    <tag group="AttrPool" tag="attrInt" name="Intuition" abbrev="Intuition"/>
+    <tag group="SkillCat" tag="Physical" name="Physical" abbrev="Physical"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaMachGun" name="Machine Guns" description="Your ability to handle machine guns." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="LimitSpec" tag="Accuracy" name="By Weapon&apos;s Accuracy" abbrev="A"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaMechRep" name="Mechanical Repair" description="Your ability to repair or build machines of various sizes. Carpentry and Metalworking are included in this skill group. Machines can&apos;t be too complex, or need to be simple in their complexity." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillCat" tag="Technical" name="Technical" abbrev="Technical"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaOpHvyMa" name="Operate Heavy Machine" description="Your ability to operate heavy machinery such as large-scale construction equipment or tanks." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillHelp" tag="UsesPilot" name="On a vehicle, this skill uses the pilot attribute for its dicepool" abbrev="On a vehicle, this skill uses the pilot attribute for its dicepool"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="SkillCat" tag="Technical"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrRea" name="Reaction" abbrev="Reaction"/>
+    <tag group="LimitSpec" tag="Handling" name="By Vehicle&apos;s Handling" abbrev="H"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaPersuad" name="Persuade" description="How adept you are at persuading people to do what you want them to." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="UsesLimit" tag="ilSocial" name="Social Limit" abbrev="Social Limit"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrCha" name="Charisma" abbrev="Charisma"/>
+    <tag group="SkillCat" tag="Social" name="Social" abbrev="Social"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaPscyAna" name="Pscyoanlayze" description="Allows you to help with mentally unstable people, granting them repreive from their madness. This skill can heal most sanity loss up to a point." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="UsesLimit" tag="ilSocial" name="Social Limit" abbrev="Social Limit"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrCha" name="Charisma" abbrev="Charisma"/>
+    <tag group="SkillCat" tag="Social" name="Social" abbrev="Social"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaRide" name="Ride" description="Your ability to ride mounted animals such as Horses and Camels." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillCat" tag="Vehicle" name="Vehicle" abbrev="Vehicle"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="SkillHelp" tag="UsesPilot" name="On a vehicle, this skill uses the pilot attribute for its dicepool" abbrev="On a vehicle, this skill uses the pilot attribute for its dicepool"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrRea" name="Reaction" abbrev="Reaction"/>
+    <tag group="LimitSpec" tag="Handling" name="By Vehicle&apos;s Handling" abbrev="H"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaShotgun" name="Shotgun" description="How well you handle a shotgun" compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="LimitSpec" tag="Accuracy" name="By Weapon&apos;s Accuracy" abbrev="A"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaRifle" name="Rifle" description="Your ability to handle rifles such as infantry rifles and sniper rifles." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="LimitSpec" tag="Accuracy" name="By Weapon&apos;s Accuracy" abbrev="A"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaSpotHid" name="Spot Hidden" description="Spot Hidden is your ability to find things hidden away." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="UsesLimit" tag="ilMental" name="Mental Limit" abbrev="Mental Limit"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrInt" name="Intuition" abbrev="Intuition"/>
+    <tag group="SkillCat" tag="Physical" name="Physical" abbrev="Physical"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaSubMach" name="SubMachine Guns" description="Your ability to handle submachine guns." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="SkillCat" tag="Combat" name="Combat" abbrev="Combat"/>
+    <tag group="SkillHelp" tag="CanDefault" name="Can Default" abbrev="Can Default"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="AttrPool" tag="attrAgi" name="Agility" abbrev="Agility"/>
+    <tag group="LimitSpec" tag="Accuracy" name="By Weapon&apos;s Accuracy" abbrev="A"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaAccntng" name="Accounting" description="Understanding of Accounting procedures and financial records. Allows research into finances if you find documents to interpret." compset="SkillAct">
+    <usesource source="cosSkills"/>
+    <usesource source="cosAll"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaAnthrop" name="Anthropology" description="Understanding of different cultures from around the world and throughout history." compset="SkillAct">
+    <usesource source="cosSkills"/>
+    <usesource source="cosAll"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaArchaeo" name="Archaeology" description="Understanding of dating and identifaction of antiquities and detecting fakes." compset="SkillAct">
+    <usesource source="cosSkills"/>
+    <usesource source="cosAll"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaArt" name="Art" description="Specify what type of art. Similar to Craft and performance. Use depends on situation and on what you are trying to accomplish." compset="SkillAct">
+    <usesource source="cosSkills"/>
+    <usesource source="cosAll"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrInt"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaAstro" name="Astronomy" description="Understanding of the stars, planets and constellations." compset="SkillAct">
+    <usesource source="cosSkills"/>
+    <usesource source="cosAll"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaBiology" name="Biology" description="The science of life, including botany, cytology, ecology, genetics, etc." compset="SkillAct">
+    <usesource source="cosSkills"/>
+    <usesource source="cosAll"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaChem" name="Chemistry" description="The science of Chemistry. Used for identifying or creating various substances." compset="SkillAct">
+    <usesource source="cosSkills"/>
+    <usesource source="cosAll"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaGeology" name="Geology" description="The science of Geology. Identifying mountains, canyons, fossils, crystals, seizmic events, etc." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaHistory" name="History" description="How well you know the history of the planet. Not the &quot;true history&quot; but the scientifically recorded history." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaLaw" name="Law" description="How well you know the legal system and it&apos;s history within the country you reside in. You can specialize in foreign law to gain access to foreign legal systems." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaLibrary" name="Library Use" description="How well you can deal with large volumes of text when searching for something specific. When trying to find a specific bit of information in a book, or a specific book in a library system, you would use this skill." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrInt"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaNatHist" name="Natural History" description="How well you know the &apos;natural history&apos; of Earth. Represents traditional information from farmers, fishermen, hobbyists, etc; instead of the more recent scientific advancements." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaOccult" name="Occult" description="How familiar you are with various occult systems from around the world and as they&apos;ve evolved over history. This is your ability to recognize a site of magickal working as well as your ability to perform minor magick yourself if you have a useful tome to work from." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrInt"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaPharmac" name="Pharmacy" description="Your knowledge of drugs and medicines. Legal or not. Natural or not." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaPhotogr" name="Photography" description="Your ability to take and develop clear pictures and perhaps enhance hidden details." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrInt"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaPhysics" name="Physics" description="Your understanding of Physics as well as the history of the field. This skill also allows you to attempt to formulate or interpret new theories as you encounter strange things. Those theories may be useful for dealing with the psychological problems those strange things can cause." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="skaPsychlg" name="Psychology" description="Your ability to study a person in detail. Helps you understand an individuals motivation and general ideas about their character. Is not used for Judging Intent. This is the long study of a person." compset="SkillAct">
+    <usesource source="cosAll"/>
+    <usesource source="cosSkills"/>
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="SkillCat" tag="Occupation"/>
+    <tag group="AttrPool" tag="attrInt"/>
+    <tag group="LimitSpec" tag="Varies" name="Varies" abbrev="?"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="sklMu" name="Muvian" description="The language of the Muvians" compset="SkillLang">
+    <tag group="User" tag="Unique" name="Unique" abbrev="Unique"/>
+    <tag group="UsesLimit" tag="ilMental" name="Mental Limit" abbrev="Mental Limit"/>
+    <tag group="Helper" tag="NoMission"/>
+    <child entity="skSpecial"></child>
+    </thing>
+  <thing id="aoIdea" name="Idea Check" description="An idea test is used to figure out solutions to unknown situations. Success is not always best. Sometimes its better to not let the mind attempt to fill in the blanks when dealing with ultra-terrible things" compset="AttrOnly" uniqueness="unique">
+    <tag group="AttrDiceP" tag="attrLog" name="Logic" abbrev="Logic"/>
+    <tag group="AttrDiceP" tag="attrInt"/>
+    </thing>
+  <thing id="aoSanity" name="Sanity Check" description="Roll this to determine how well you resist a sanity loss event" compset="AttrOnly" uniqueness="unique">
+    <tag group="AttrDiceP" tag="attrEssenc"/>
+    <tag group="AttrDiceP" tag="attrWil"/>
+    </thing>
+  <thing id="trkSanity" name="Sanity" description="Sanity is the mental fortitude of an individual and is subject to change due to exposure to terrifying things or medicine. You can&apos;t change this value it is derived from your attributes, cthulhu mythos and lost sanity values." compset="Tracker" summary="Sanity Tracker" uniqueness="unique">
+    <fieldval field="trkMax" value="99"/>
+    <usesource source="cosAll"/>
+    <tag group="Helper" tag="Bootstrap"/>
+    <eval phase="Final" priority="100000"><![CDATA[trustme
+var sanity as number
+var current as number
+var mythos as number
+
+sanity = 15 + ((hero.child[attrWil].field[trtNatural].value + hero.child[attrEssenc].field[trtNatural].value) * 5)
+sanity -= hero.childfound[trkLostSan].field[trkUser].value
+field[trkUser].value = sanity
+
+mythos = hero.childfound[trkCthulhu].field[trkUser].value
+if (mythos <> 0) then
+   field[trkMax].value -= mythos
+endif]]></eval>
+    </thing>
+  <thing id="trkCthulhu" name="Cthulhu Mythos" description="Mythos represents your level of &quot;true knowledge&quot;. It reduces your maximum and current sanity.\n\nYour mythos value counts as a karma pool for the cthulhu mythos knowledge skill. On your journal tab, record the karma gain required to improve the skill as mythos karma. Then use the advancements tab to increase the skill." compset="Tracker" summary="Total Cthulhu Mythos score" uniqueness="unique">
+    <fieldval field="trkMax" value="99"/>
+    <usesource source="cosAll"/>
+    <tag group="Helper" tag="Bootstrap"/>
+    <eval phase="Final" priority="100000">field[trkMin].value = field[trkUser].value</eval>
+    </thing>
+  <thing id="armDogOver" name="Dog Fur Overcoat" compset="Armor">
+    <fieldval field="defArmor" value="3"/>
+    <fieldval field="defStack" value="1"/>
+    <fieldval field="defCold" value="2"/>
+    <fieldval field="grCost" value="37.50"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="ArmorAddOn" tag="arms"/>
+    <tag group="ArmorAddOn" tag="CustomStk"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="ArmorAddOn" tag="vitals"/>
+    <tag group="ModCat" tag="ArmorStack"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqPadded">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="1"/>
+        </bootstrap>
+      <bootstrap thing="eqAFHolste"></bootstrap>
+      </child>
+    </thing>
+  <thing id="armOvercoa" name="Chesterfield Overcoat" compset="Armor">
+    <fieldval field="defArmor" value="2"/>
+    <fieldval field="defStack" value="1"/>
+    <fieldval field="defCold" value="2"/>
+    <fieldval field="grCost" value="19.95"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="ArmorAddOn" tag="arms"/>
+    <tag group="ArmorAddOn" tag="CustomStk"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="ArmorAddOn" tag="vitals"/>
+    <tag group="ModCat" tag="ArmorStack"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqPadded">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="1"/>
+        </bootstrap>
+      </child>
+    </thing>
+  <thing id="armSealCap" name="Sealskin Cap" compset="Armor">
+    <fieldval field="grCost" value="16.95"/>
+    <fieldval field="defCold" value="3"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="ArmorAddOn" tag="Helmet" name="Helmet" abbrev="Helmet"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm"></child>
+    </thing>
+  <thing id="armClothin" name="Clothing" description="General clothing from the 1930s" compset="Armor">
+    <fieldval field="grCostVar" value="0.5 - 20"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="CustomItem" name="CustomItem" abbrev="CustomItem"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm"></child>
+    </thing>
+  <thing id="armSweater" name="Worsted Wool Sweater" compset="Armor">
+    <fieldval field="defArmor" value="2"/>
+    <fieldval field="defStack" value="1"/>
+    <fieldval field="defCold" value="3"/>
+    <fieldval field="grCost" value="9.48"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="ArmorAddOn" tag="arms"/>
+    <tag group="ArmorAddOn" tag="CustomStk"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="ArmorAddOn" tag="vitals"/>
+    <tag group="ModCat" tag="ArmorStack"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqPadded">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="1"/>
+        </bootstrap>
+      </child>
+    </thing>
+  <thing id="armVelCoat" name="Velour Coat w Fur Trim" compset="Armor">
+    <fieldval field="defArmor" value="2"/>
+    <fieldval field="defStack" value="2"/>
+    <fieldval field="defCold" value="4"/>
+    <fieldval field="grCost" value="39.75"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="ArmorAddOn" tag="arms"/>
+    <tag group="ArmorAddOn" tag="CustomStk"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="ArmorAddOn" tag="vitals"/>
+    <tag group="ModCat" tag="ArmorStack"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqPadded">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="1"/>
+        </bootstrap>
+      <bootstrap thing="eqConceala">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="-2"/>
+        </bootstrap>
+      <bootstrap thing="eqNewModel"></bootstrap>
+      <bootstrap thing="eqSocMod">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="2"/>
+        </bootstrap>
+      </child>
+    </thing>
+  <thing id="armFurCoat" name="Brown Fox Fur Coat" compset="Armor">
+    <fieldval field="defArmor" value="3"/>
+    <fieldval field="defStack" value="3"/>
+    <fieldval field="defCold" value="4"/>
+    <fieldval field="grCost" value="198"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="ArmorAddOn" tag="arms"/>
+    <tag group="ArmorAddOn" tag="CustomStk"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="ArmorAddOn" tag="vitals"/>
+    <tag group="ModCat" tag="ArmorStack"/>
+    <tag group="EquipCat" tag="cos_armor" name="1930&apos;s High Fashion Clothing" abbrev="1930&apos;s Armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqConceala">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="-2"/>
+        </bootstrap>
+      <bootstrap thing="eqNewModel"></bootstrap>
+      <bootstrap thing="eqSocMod">
+        <autotag group="Equipment" tag="FixRating"/>
+        <assignval field="grUser" value="3"/>
+        </bootstrap>
+      <bootstrap thing="eqPadded"></bootstrap>
+      <bootstrap thing="eqAFHolste"></bootstrap>
+      </child>
+    </thing>
+  <thing id="eqRadioCon" name="Console Radio Reciever" description="The large standing radios were the centerpiece of entertainment for many american homes.\n\n1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="49.95"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqBanjo" name="Banjo" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="8"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqSax" name="Saxophone" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="63.45"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqPhonogra" name="Cabinet Phonograph" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="63.45"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqMvCamera" name="Movie Camera" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="59"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqBoxCam" name="Box Camera" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="2.29"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqFoldCam" name="Folding Pocket Camera" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="16.15"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqCosTool" name="Tool Kit, Specify" description="Building and repairing items requires the right tools for the job. Tools must be bought separately for a specific skill (for example, an Armorer shop, a Disguise kit, a Nautical Mechanic facility, etc.). A {b}kit{/b} is portable and contains the basic gear to make standard repairs.\n\nThere are some guidelines to help you figure out when a kit, shop, or facility is necessary for a particular job ({b}Building &amp; Repairing{/b}, p. 145). The gamemaster gets final say, though, and might even tell you that you need specific or unusual parts you have to get separately.\n\n1930s" compset="Equipment">
+    <fieldval field="grSpace" value="6"/>
+    <fieldval field="grCostVar" value="5 - 30"/>
+    <tag group="Helper" tag="CustomItem" name="CustomItem" abbrev="CustomItem"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="EquipCat" tag="Tools" name="Tools" abbrev="Tools"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqSimpMed" name="Medkit" description="The medkit includes drug supplies, bandages, tools, and a book that can advise the user on techniques to handle most typical medical emergencies (including fractures, gunshot wounds, chemical wounds, and poisoning, as well as offering advice for the treating of shock, handling blood loss, and of course performing resuscitations). Add the medkit&apos;s rating to your limit on First Aid tests. The medkit is the size of a small carrying case and needs to be restocked after every (Rating) uses.\n\n1930s" compset="Equipment">
+    <fieldval field="grCostRat" value="25"/>
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="6"/>
+    <fieldval field="grAvailRat" value="1"/>
+    <fieldval field="grSpace" value="5"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="ModCat" tag="ArmorAddOn" name="ArmorAddOn" abbrev="ArmorAddOn"/>
+    <tag group="EquipCat" tag="Biotech" name="Biotech" abbrev="Biotech"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip" name="Show Equip Checkbox" abbrev="Show Equip Checkbox"/>
+    <tag group="Equipment" tag="ShowRating" name="Always Show Rating" abbrev="Always Show Rating"/>
+    <eval phase="Traits" priority="12000"><![CDATA[
+      doneif (activated = 0)
+      doneif (field[grIsEquip].value = 0)
+
+      perform #limit[skaFirstAi,+,field[grRating].value,""]
+
+      doneif (tagis[Equipment.WirelessOn] = 0)
+      perform #dicepool[skaFirstAi,+,field[grRating].value,""]]]>
+      <after name="Calc grRating Final"/>
+      </eval>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqCookCamp" name="Cooking Kit" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="8.48"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqStoveCam" name="Camp Stove" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="5.85"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqWatBlank" name="Waterproof Blanket" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="1.79"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqBedCamp" name="Folding Camp Bed" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="5.95"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqCarLamp" name="Carbide Lamp" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="2.59"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqSerchLgh" name="Searchlight" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="5.95"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqGasLante" name="Gasoline Lantern" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="6.59"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqBinocula" name="Binoculars" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="28"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqCompass" name="Compass" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="2.45"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqAnimTrap" name="Animal Trap" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCostVar" value="2.50 - 5"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <tag group="Helper" tag="CustomItem"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqFishing" name="Fishing Gear" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="16"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <tag group="Helper" tag="CustomItem"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqLuggage" name="Luggage" description="Rating effects size of luggage\n1 - 8 lb Handle Bag\n2 - 15 lbs Suitcase\n3 - 55 lbs Steamer Trunk\n4 - 95 lbs Wardrobe\n\n1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCostRat" value="8"/>
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="4"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <tag group="Helper" tag="CustomItem"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqTent" name="Tent" description="Rating effects size of Tent\n1 - 7 X 7\n2 - 12 X 16\n3 - 16 X 24\n4 - 24 X 36\n\n1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCostRat" value="12"/>
+    <fieldval field="grMinimum" value="1"/>
+    <fieldval field="grMaximum" value="4"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <tag group="Helper" tag="CustomItem"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqCanteen" name="Canteen" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="1.69"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqInsTank" name="Insulated Tank" description="1930s" compset="Equipment" lotsize="10" stacking="merge">
+    <fieldval field="grCost" value="3.98"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Equipment" tag="ReqThrowbk" name="Must be a throwback device without wireless capability" abbrev="Must be a throwback device without wireless capability"/>
+    <tag group="Equipment" tag="ShowDevRat" name="Always Show the Device Rating, even on a throwback device" abbrev="Always Show the Device Rating, even on a throwback device"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="CanEquip"/>
+    <tag group="EquipCat" tag="Custom"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="eqBlowTorc" name="Gasoline Blowtorch" description="1930s" compset="Equipment">
+    <fieldval field="grCost" value="4.45"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="ModCat" tag="ArmorAddOn" name="ArmorAddOn" abbrev="ArmorAddOn"/>
+    <tag group="EquipCat" tag="BreakEnter" name="Breaking and Entering Gear" abbrev="Breaking and Entering Gear"/>
+    <tag group="Helper" tag="NoMission"/>
+    <child entity="grCustom"></child>
+    </thing>
+  <thing id="rvModelT" name="Model T" description="1930s" compset="RaceVeh" uniqueness="unique">
+    <fieldval field="racDiffBod" value="8"/>
+    <fieldval field="racCost" value="385"/>
+    <fieldval field="racDiffHOn" value="4"/>
+    <fieldval field="racDiffHOf" value="3"/>
+    <fieldval field="racDiffSOn" value="3"/>
+    <fieldval field="racDiffAcc" value="2"/>
+    <fieldval field="rvArmor" value="4"/>
+    <fieldval field="rvSeats" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="VehSpec" tag="spGroWhee" name="Wheeled" abbrev="Wheeled"/>
+    <tag group="VehicleCat" tag="Car" name="Cars" abbrev="Cars"/>
+    <tag group="Helper" tag="NoMission"/>
+    </thing>
+  <thing id="rvModelA" name="Model A" description="1930s" compset="RaceVeh" uniqueness="unique">
+    <fieldval field="racDiffBod" value="8"/>
+    <fieldval field="racCost" value="560"/>
+    <fieldval field="racDiffHOn" value="4"/>
+    <fieldval field="racDiffHOf" value="3"/>
+    <fieldval field="racDiffSOn" value="4"/>
+    <fieldval field="racDiffAcc" value="3"/>
+    <fieldval field="rvArmor" value="4"/>
+    <fieldval field="rvSeats" value="5"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="VehSpec" tag="spGroWhee" name="Wheeled" abbrev="Wheeled"/>
+    <tag group="VehicleCat" tag="Car" name="Cars" abbrev="Cars"/>
+    <tag group="Helper" tag="NoMission"/>
+    </thing>
+  <thing id="rvChevSupr" name="Chevrolet Series AA Capitol" description="1930s" compset="RaceVeh" uniqueness="unique">
+    <fieldval field="racDiffBod" value="8"/>
+    <fieldval field="racCost" value="600"/>
+    <fieldval field="racDiffHOn" value="5"/>
+    <fieldval field="racDiffHOf" value="2"/>
+    <fieldval field="racDiffSOn" value="4"/>
+    <fieldval field="racDiffAcc" value="3"/>
+    <fieldval field="rvArmor" value="4"/>
+    <fieldval field="rvSeats" value="5"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="VehSpec" tag="spGroWhee" name="Wheeled" abbrev="Wheeled"/>
+    <tag group="VehicleCat" tag="Car" name="Cars" abbrev="Cars"/>
+    <tag group="Helper" tag="NoMission"/>
+    </thing>
+  <thing id="rvMercBenz" name="Mercedes-Benz SSK" description="1930s" compset="RaceVeh" uniqueness="unique">
+    <fieldval field="racDiffBod" value="12"/>
+    <fieldval field="racCost" value="8000"/>
+    <fieldval field="racDiffHOn" value="5"/>
+    <fieldval field="racDiffHOf" value="4"/>
+    <fieldval field="racDiffSOn" value="5"/>
+    <fieldval field="racDiffAcc" value="2"/>
+    <fieldval field="rvArmor" value="6"/>
+    <fieldval field="rvSeats" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="VehSpec" tag="spGroWhee" name="Wheeled" abbrev="Wheeled"/>
+    <tag group="VehicleCat" tag="Car" name="Cars" abbrev="Cars"/>
+    </thing>
+  <thing id="rvPackrd" name="Pakard 626" description="1930s" compset="RaceVeh" uniqueness="unique">
+    <fieldval field="racDiffBod" value="9"/>
+    <fieldval field="racCost" value="2400"/>
+    <fieldval field="racDiffHOn" value="5"/>
+    <fieldval field="racDiffHOf" value="4"/>
+    <fieldval field="racDiffSOn" value="5"/>
+    <fieldval field="racDiffAcc" value="2"/>
+    <fieldval field="rvArmor" value="8"/>
+    <fieldval field="rvSeats" value="5"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="VehSpec" tag="spGroWhee" name="Wheeled" abbrev="Wheeled"/>
+    <tag group="VehicleCat" tag="Car" name="Cars" abbrev="Cars"/>
+    </thing>
+  <thing id="rvBuick121" name="Buick 121" description="1930s" compset="RaceVeh" uniqueness="unique">
+    <fieldval field="racDiffBod" value="8"/>
+    <fieldval field="racCost" value="1400"/>
+    <fieldval field="racDiffHOn" value="5"/>
+    <fieldval field="racDiffHOf" value="4"/>
+    <fieldval field="racDiffSOn" value="5"/>
+    <fieldval field="racDiffAcc" value="2"/>
+    <fieldval field="rvArmor" value="6"/>
+    <fieldval field="rvSeats" value="5"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="VehSpec" tag="spGroWhee" name="Wheeled" abbrev="Wheeled"/>
+    <tag group="VehicleCat" tag="Car" name="Cars" abbrev="Cars"/>
+    </thing>
+  <thing id="rvMotorcyc" name="Norton Motorcycle" description="1930s" compset="RaceVeh" uniqueness="unique">
+    <fieldval field="racDiffBod" value="4"/>
+    <fieldval field="racCost" value="95"/>
+    <fieldval field="racDiffHOn" value="4"/>
+    <fieldval field="racDiffHOf" value="3"/>
+    <fieldval field="racDiffSOn" value="3"/>
+    <fieldval field="racDiffAcc" value="1"/>
+    <fieldval field="rvArmor" value="4"/>
+    <fieldval field="racDiffPil" value="1"/>
+    <fieldval field="racDiffSen" value="1"/>
+    <fieldval field="rvSeats" value="1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="VehSpec" tag="spGroBike" name="Bike" abbrev="Bike"/>
+    <tag group="VehicleCat" tag="Bike" name="Bikes" abbrev="Bikes"/>
+    </thing>
+  <thing id="am22Rifle" name=".22 Long Rifle" description="Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).\n\n1930s" compset="Ammunition" lotsize="100" stacking="merge">
+    <fieldval field="grLotCost" value=".53"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am22Hollow" name=".22 Hollow Point" description="Hollow point or dum dum rounds have their tips indented, so they are designed to &quot;mushroom&quot; or expand on impact, becoming a hail of deadly fragments not unlike flechettes, although hollow points are a much older technology. Like flechettes, hollow points work better on unarmored targets and tend to flatten against armor.\n\n1930s" compset="Ammunition" lotsize="100" stacking="merge">
+    <fieldval field="grLotCost" value=".48"/>
+    <fieldval field="grAvail" value="4"/>
+    <fieldval field="wpDamage" value="1"/>
+    <fieldval field="wpAP" value="2"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Restricted" tag="Forbidden" name="Forbidden" abbrev="F"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="amRimFire" name=".25 Rim Fire" description="Also called ball or full metal jacket rounds, these solid slugs are useful for numerous applications (mainly killing things).\n\n1930s" compset="Ammunition" lotsize="100" stacking="merge">
+    <fieldval field="grLotCost" value="1.08"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am3006" name="30-06 Gov&apos;t" description="1930s" compset="Ammunition" lotsize="100" stacking="merge">
+    <fieldval field="grLotCost" value="7.63"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am32Specia" name=".32 Special" description="1930s" compset="Ammunition" lotsize="100" stacking="merge">
+    <fieldval field="grLotCost" value="5.26"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am38Repeat" name=".38-55 Repeater" description="1930s" compset="Ammunition" lotsize="100" stacking="merge">
+    <fieldval field="grLotCost" value="5.58"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am44High" name=".44 High-Power" description="1930s" compset="Ammunition" lotsize="100" stacking="merge">
+    <fieldval field="grLotCost" value="4.49"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am45Automa" name=".45 Automatic" description="1930s" compset="Ammunition" lotsize="100" stacking="merge">
+    <fieldval field="grLotCost" value="8.60"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am10Gauge" name="10-Gauge Shell" description="1930s" compset="Ammunition" lotsize="25" stacking="merge">
+    <fieldval field="grLotCost" value="2.73"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am12Gauge" name="12-Gauge Shell" description="1930s" compset="Ammunition" lotsize="25" stacking="merge">
+    <fieldval field="grLotCost" value="2.40"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am16Gauge" name="16-Gauge Shell" description="1930s" compset="Ammunition" lotsize="25" stacking="merge">
+    <fieldval field="grLotCost" value="2.24"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="am20Gauge" name="20-Gauge Shell" description="1930s" compset="Ammunition" lotsize="25" stacking="merge">
+    <fieldval field="grLotCost" value="1.87"/>
+    <fieldval field="grAvail" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="AmmoType" tag="Bullet" name="Bullets" abbrev="Bullets"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Restricted" tag="Restricted" name="Restricted" abbrev="R"/>
+    <tag group="Weapon" tag="DamageMod" name="Ammo: Damage is a Modification" abbrev="Ammo: Damage is a Modification"/>
+    <child entity="grCustAmmo"></child>
+    </thing>
+  <thing id="trkLostSan" name="Lost Sanity" description="Through special encounters with monsters, story events, and the learning of terrible things, you will lose Sanity. Track that lost sanity here. If you heal more sanity than you&apos;ve lost, the tracker can go negative." compset="Tracker" summary="How much sanity have you lost?" uniqueness="unique">
+    <fieldval field="trkMax" value="99"/>
+    <fieldval field="trkMin" value="-99"/>
+    <usesource source="cosAll" parent="cosSource" name="Call of Shadows All"/>
+    <tag group="Helper" tag="Bootstrap" name="Bootstrap" abbrev="Bootstrap"/>
+    </thing>
+  <thing id="armCashSui" name="Cashmere Dress Suit" compset="Armor">
+    <fieldval field="grCost" value="18.50"/>
+    <fieldval field="defArmor" value="1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCustFit"></bootstrap>
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqSocMod">
+        <assignval field="grUser" value="1"/>
+        </bootstrap>
+      </child>
+    </thing>
+  <thing id="armChcDrss" name="Chic Designer Dress" compset="Armor">
+    <fieldval field="grCost" value="90"/>
+    <fieldval field="defArmor" value="1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCustFit"></bootstrap>
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqSocMod">
+        <assignval field="grUser" value="3"/>
+        </bootstrap>
+      <bootstrap thing="eqNewModel"></bootstrap>
+      </child>
+    </thing>
+  <thing id="armCordSui" name="Cordory Norfolk Suit" compset="Armor">
+    <fieldval field="grCost" value="9.95"/>
+    <fieldval field="defArmor" value="1"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCustFit"></bootstrap>
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqSocMod">
+        <assignval field="grUser" value="1"/>
+        </bootstrap>
+      <bootstrap thing="eqPadded"></bootstrap>
+      </child>
+    </thing>
+  <thing id="armSatChrm" name="Satin Charmeuse" compset="Armor">
+    <fieldval field="grCost" value="10.95"/>
+    <fieldval field="defCold" value="1"/>
+    <usesource source="cosGear"/>
+    <usesource source="cosAll"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCustFit"></bootstrap>
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqSocMod">
+        <assignval field="grUser" value="1"/>
+        </bootstrap>
+      <bootstrap thing="eqNewModel"></bootstrap>
+      </child>
+    </thing>
+  <thing id="armCrpFroc" name="Silk Crepe Frock" compset="Armor">
+    <fieldval field="grCost" value="16.50"/>
+    <fieldval field="defCold" value="1"/>
+    <usesource source="cosGear"/>
+    <usesource source="cosAll"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCustFit"></bootstrap>
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqSocMod">
+        <assignval field="grUser" value="1"/>
+        </bootstrap>
+      <bootstrap thing="eqNewModel"></bootstrap>
+      </child>
+    </thing>
+  <thing id="armTailSui" name="Tailored Silk Dress Suit" compset="Armor">
+    <fieldval field="grCost" value="75"/>
+    <fieldval field="defCold" value="1"/>
+    <fieldval field="defArmor" value="3"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCustFit"></bootstrap>
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqSocMod">
+        <assignval field="grUser" value="2"/>
+        </bootstrap>
+      <bootstrap thing="eqNewModel"></bootstrap>
+      <bootstrap thing="eqAFHolste"></bootstrap>
+      <bootstrap thing="eqPadded"></bootstrap>
+      </child>
+    </thing>
+  <thing id="armWoolSui" name="Worsted Wool Dress Suit" compset="Armor">
+    <fieldval field="grCost" value="29.50"/>
+    <fieldval field="defCold" value="2"/>
+    <fieldval field="defArmor" value="2"/>
+    <usesource source="cosAll"/>
+    <usesource source="cosGear"/>
+    <tag group="thing" tag="holder" name="Holder" abbrev="???"/>
+    <tag group="Helper" tag="NoMission"/>
+    <tag group="Equipment" tag="FixRating" name="Fixed Gear Rating" abbrev="Fixed Gear Rating"/>
+    <tag group="EquipCat" tag="cos_armor"/>
+    <child entity="grCustArm">
+      <bootstrap thing="eqCustFit"></bootstrap>
+      <bootstrap thing="eqCFStack"></bootstrap>
+      <bootstrap thing="eqSocMod">
+        <assignval field="grUser" value="1"/>
+        </bootstrap>
+      <bootstrap thing="eqPadded"></bootstrap>
+      </child>
+    </thing>
+  <thing id="armHghFsh" name="1930&apos;s High Fashion Clothing" description="A variety of clothing options for the 1930&apos;s. These clothing items have relevant prices and give some bonuses to the individuals wearing them." compset="Armor" summary="Clothing for the 1930s" isshowonly="yes">
+    <tag group="EquipCat" tag="cos_armor"/>
+    </thing>
+  </document>

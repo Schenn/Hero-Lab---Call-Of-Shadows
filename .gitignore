@@ -1,0 +1,7 @@
+#Ignore Everything
+*
+
+#Don't ignore our user or git files
+!.gitignore
+!call_of_shadows.user
+!README.md
